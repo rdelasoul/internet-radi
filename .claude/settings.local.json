@@ -3,7 +3,10 @@
     "allow": [
       "Bash(cat:*)",
       "Bash(git fetch upstream)",
-      "Bash(npx quartz sync)"
+      "Bash(npx quartz sync)",
+      "Bash(git branch -m main v4)",
+      "Bash(git push -u origin v4)",
+      "Bash(git push origin --delete main)"
     ],
     "deny": [],
     "ask": []
