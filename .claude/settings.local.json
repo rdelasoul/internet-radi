@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(git fetch upstream)",
+      "Bash(npx quartz sync)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
